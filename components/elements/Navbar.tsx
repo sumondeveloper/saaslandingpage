@@ -3,7 +3,7 @@ import Menu from "@/public/icons/menu.svg";
 import MaxWidthWrapper from "../shared/MaxWidthWrapper";
 import Link from "next/link";
 import Image from "next/image";
-import Button from "../shared/Butto";
+import Button from "../shared/Button";
 const Navbar = () => {
   return (
     <header className="bg-black py-5 text-white">
