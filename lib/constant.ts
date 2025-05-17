@@ -5,7 +5,6 @@ import celestia from "@/public/celestia.webp";
 import pulse from "@/public/pulse.webp";
 import quantum from "@/public/quantum.webp";
 
-export const LogoItems = [acme, quantum, echo, celestia, pulse, apex];
 export const NavItems = [
   {
     title: "About",
@@ -26,5 +25,23 @@ export const NavItems = [
   {
     title: "Customers",
     path: "customers",
+  },
+];
+export const LogoItems = [acme, quantum, echo, celestia, pulse, apex];
+export const FeaturesItems = [
+  {
+    title: "Integration ecosystem",
+    description:
+      "Enhance your productivity by connecting with your favorite tools, keeping all your essentials in one place.",
+  },
+  {
+    title: "Goal setting and tracking",
+    description:
+      "Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight.",
+  },
+  {
+    title: "Secure data encryption",
+    description:
+      "With end-to-end encryption, your data is securely stored and protected from unauthorized access.",
   },
 ];
