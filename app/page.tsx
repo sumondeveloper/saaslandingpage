@@ -3,6 +3,7 @@ import Banner from "@/components/sections/Banner";
 import Features from "@/components/sections/Features";
 import Hero from "@/components/sections/Hero";
 import LogoTicker from "@/components/sections/LogoTicker";
+import ProductShowCase from "@/components/sections/ProductShowCase";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <LogoTicker />
       <Features />
+      <ProductShowCase />
     </>
   );
 }
