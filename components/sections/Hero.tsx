@@ -3,6 +3,7 @@ import MaxWidthWrapper from "../shared/MaxWidthWrapper";
 import Button from "../shared/Button";
 import cursor from "@/public/cursor.webp";
 import message from "@/public/message.webp";
+import * as motion from "motion/react-client";
 import Image from "next/image";
 const Hero = () => {
   return (
@@ -40,20 +41,34 @@ const Hero = () => {
               One Task <br />
               at a Time
             </h1>
-            <Image
-              src={cursor}
-              alt=""
-              height="200"
-              width="200"
+            <motion.div
               className="absolute right-[550px] top-[50px] hidden sm:inline lg:right-[590px] lg:top-[130px]"
-            />
-            <Image
-              src={message}
-              alt=""
-              height="200"
-              width="200"
+              drag
+              dragSnapToOrigin
+            >
+              <Image
+                src={cursor}
+                alt=""
+                height="200"
+                width="200"
+                className="max-w-none"
+                draggable="false"
+              />
+            </motion.div>
+            <motion.div
               className="absolute top-[56px] left-[580px] hidden sm:inline lg:left-[620px]"
-            />
+              drag
+              dragSnapToOrigin
+            >
+              <Image
+                src={message}
+                alt=""
+                height="200"
+                width="200"
+                className="max-w-none"
+                draggable="false"
+              />
+            </motion.div>
           </div>
         </div>
         <div className="flex justify-center">

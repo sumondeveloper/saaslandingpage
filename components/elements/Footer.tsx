@@ -2,7 +2,6 @@ import { SocialItems } from "@/lib/constant";
 import MaxWidthWrapper from "../shared/MaxWidthWrapper";
 import Link from "next/link";
 import Image from "next/image";
-
 const Footer = () => {
   return (
     <footer className="bg-black text-[#808080] text-center py-5 sm:py-10">
