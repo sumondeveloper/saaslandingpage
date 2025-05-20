@@ -1,5 +1,6 @@
 import Navbar from "@/components/elements/Navbar";
 import Banner from "@/components/sections/Banner";
+import CallToAction from "@/components/sections/CallToAction";
 import Faqs from "@/components/sections/Faqs";
 import Features from "@/components/sections/Features";
 import Hero from "@/components/sections/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <Features />
       <ProductShowCase />
       <Faqs />
+      <CallToAction />
     </>
   );
 }
