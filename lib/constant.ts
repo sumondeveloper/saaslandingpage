@@ -4,6 +4,12 @@ import echo from "@/public/echo.webp";
 import celestia from "@/public/celestia.webp";
 import pulse from "@/public/pulse.webp";
 import quantum from "@/public/quantum.webp";
+import Twitter from "@/public/icons/twitter.svg";
+import Instagram from "@/public/icons/insta.svg";
+import Pinterest from "@/public/icons/pinterest.svg";
+import Linkdien from "@/public/icons/linkdien.svg";
+import Tiktok from "@/public/icons/tiktok.svg";
+import Youtube from "@/public/icons/yt.svg";
 
 export const NavItems = [
   {
@@ -65,5 +71,31 @@ export const FaqItems = [
     question: "Is my data secure?",
     answer:
       "Yes, we prioritize data security. All your data is encrypted in transit and at rest, and we follow industry best practices to ensure your information is safe.",
+  },
+];
+export const SocialItems = [
+  {
+    icon: Twitter,
+    path: "#",
+  },
+  {
+    icon: Instagram,
+    path: "#",
+  },
+  {
+    icon: Pinterest,
+    path: "#",
+  },
+  {
+    icon: Linkdien,
+    path: "#",
+  },
+  {
+    icon: Tiktok,
+    path: "#",
+  },
+  {
+    icon: Youtube,
+    path: "#",
   },
 ];

@@ -6,7 +6,7 @@ import CtaGear from "@/public/Gear.png";
 
 const CallToAction = () => {
   return (
-    <section className="py-[72px] bg-black text-white text-center sm:py-24 overflow-clip">
+    <section className="py-[72px] bg-black text-white text-center sm:py-24 overflow-clip border-b border-white/20">
       <MaxWidthWrapper className="relative">
         <h2 className="text-3xl font-semibold tracking-tighter sm:text-6xl">
           Get instant access

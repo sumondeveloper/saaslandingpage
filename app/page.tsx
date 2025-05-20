@@ -1,3 +1,4 @@
+import Footer from "@/components/elements/Footer";
 import Navbar from "@/components/elements/Navbar";
 import Banner from "@/components/sections/Banner";
 import CallToAction from "@/components/sections/CallToAction";
@@ -18,6 +19,7 @@ export default function Home() {
       <ProductShowCase />
       <Faqs />
       <CallToAction />
+      <Footer />
     </>
   );
 }
