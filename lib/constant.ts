@@ -45,3 +45,25 @@ export const FeaturesItems = [
       "With end-to-end encryption, your data is securely stored and protected from unauthorized access.",
   },
 ];
+export const FaqItems = [
+  {
+    question: "What payment methods do you accept?",
+    answer:
+      "We accept all major credit and debit cards, PayPal, and bank transfers. More options may be available depending on your region.",
+  },
+  {
+    question: "How does the pricing work for teams?",
+    answer:
+      "Our team pricing is based on the number of users and the features your team needs. We offer flexible plans to suit teams of all sizes.",
+  },
+  {
+    question: "Can I change my plan later?",
+    answer:
+      "Absolutely! You can upgrade or downgrade your plan at any time from your account settings. Changes will take effect in the next billing cycle.",
+  },
+  {
+    question: "Is my data secure?",
+    answer:
+      "Yes, we prioritize data security. All your data is encrypted in transit and at rest, and we follow industry best practices to ensure your information is safe.",
+  },
+];
